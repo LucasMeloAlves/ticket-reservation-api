@@ -6,7 +6,7 @@
 - **Matricola:** 7110826
 - **Tipo di progetto:** REST API (traccia 4 — *Ticket Reservation API*)
 - **Framework:** Django + Django REST Framework (JWT con SimpleJWT)
-- **Deployment:** `[inserisci qui l'URL di Render, es. https://ticket-reservation-api.onrender.com]`
+- **Deployment:** <https://ticket-reservation-api-nkcy.onrender.com>
 
 ---
 
@@ -85,7 +85,7 @@ vuoto con `migrate` + `seed_demo`.
 
 ## 5. Documentazione degli endpoint
 
-Base URL locale: `http://127.0.0.1:8000` — Base URL online: vedi sezione Deploy.
+Base URL locale: `http://127.0.0.1:8000` — Base URL online: `https://ticket-reservation-api-nkcy.onrender.com`
 
 | Metodo | URL | Auth | Ruolo | Body (esempio) | Descrizione |
 |---|---|---|---|---|---|
@@ -139,7 +139,7 @@ Installazione: <https://httpie.io/> — `pip install httpie`
 Imposta la base URL (locale o deploy):
 
 ```bash
-BASE=http://127.0.0.1:8000        # oppure: BASE=https://<il-tuo-servizio>.onrender.com
+BASE=http://127.0.0.1:8000        # oppure: BASE=https://ticket-reservation-api-nkcy.onrender.com
 ```
 
 **1. Endpoint pubblico — lista eventi (nessuna auth):**
