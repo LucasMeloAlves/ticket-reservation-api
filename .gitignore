@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments (do NOT commit these)
+.venv/
+.venv_dead/
+venv/
+env/
+
+# Django
+staticfiles/
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# SQLite transient journal/WAL files (do not commit)
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# NOTE: db.sqlite3 is intentionally NOT ignored.
+# The assignment requires the pre-populated SQLite database to be committed.
