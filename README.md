@@ -47,7 +47,7 @@ applicati **a livello di endpoint**, non solo descritti.
 
 ```bash
 # 1. Clona il repository
-git clone <URL_DEL_REPO>
+git clone https://github.com/LucasMeloAlves/ticket-reservation-api.git
 cd ticket-reservation-api
 
 # 2. Crea e attiva un virtual environment
